@@ -13,7 +13,7 @@
 // limitations under the License.
 
 use crate::components::Navbar;
-use crate::views::{HomeViews, SettingViews};
+use crate::views::{HomeViews, SettingViews, FinanceViews};
 use dioxus::prelude::*;
 
 /// The router for the application
@@ -25,4 +25,6 @@ pub enum Route {
     HomeViews {},
     #[route("/settings")]
     SettingViews {},
+    #[route("/finance")]
+    FinanceViews {},
 }

@@ -15,7 +15,9 @@
 mod app;
 mod home;
 mod setting;
+mod finance;
 
 pub use app::App;
 pub use home::HomeViews;
 pub use setting::SettingViews;
+pub use finance::FinanceViews;

@@ -26,6 +26,7 @@ pub fn Navbar() -> Element {
         div { id: "navbar", class: "hidden", style: "display: none;",
             Link { to: Route::HomeViews {}, "Home" }
             Link { to: Route::SettingViews {}, "Setting" }
+            Link { to: Route::FinanceViews {}, "Finance" }
         }
 
         Outlet::<Route> {}

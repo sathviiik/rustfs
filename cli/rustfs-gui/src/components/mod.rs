@@ -18,3 +18,5 @@ mod navbar;
 pub use navbar::Navbar;
 mod setting;
 pub use setting::Setting;
+mod finance;
+pub use finance::Finance;
